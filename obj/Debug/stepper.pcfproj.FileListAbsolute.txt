@@ -1,0 +1,2 @@
+F:\Practice\CRM\PCF\stepper\obj\Debug\stepper.pcfprojResolveAssemblyReference.cache
+F:\Practice\CRM\PCF\stepper\obj\Debug\stepper.pcfproj.CoreCompileInputs.cache

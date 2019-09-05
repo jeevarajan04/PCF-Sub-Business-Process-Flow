@@ -1,0 +1,15 @@
+.PCFNamespace\.StepperControl .hide{
+    display: none;
+}
+
+.PCFNamespace\.StepperControl .show{
+    display: block;
+}
+
+.control-pane{
+     text-align: left !important; 
+}
+
+.PCFNamespace\.StepperControl .align-center{
+    text-align: center !important; 
+}
