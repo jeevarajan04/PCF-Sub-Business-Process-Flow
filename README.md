@@ -3,20 +3,23 @@ Business Process Flows (BPF) is one of the salient features that are available i
 
 This Sub-Business Process Flow control lets you capture the sub-stages with a fluid transition, let's you to have different styles for the stages, you can skip the stages, align the stages in a different direction like vertical & horizontal etc.  Well technically, it's a UI rich transition control, doesn't have any OOB BPF features but the workflow, plugins or any actions can be triggered on change of this since it overlays on an optionset field.  
 
-Configurable properties:
+## Configurable properties:
 The number of stages - depends on the number of options in the optionset field on which the control is rendered.
 Text of each stage - depends on the text of the options in the optionset field.
 Style - different styles that are supported by Material UI.
 
-Steps:
+## Steps:
 Create an option set field, create options that need to be displayed as your stages in sub-BPF.
 Open the field from the form, navigate to properties
 Configure the design of the sub-BPF, currently, it supports 5 designs
 Modifying the options in optionset will change the stages automatically
 
-Designs:
-Linear Basic Bar
-Linear Basic Dotted
-Linear Basic Customized
-Vertical
-NonLinear (alert style stages)
+## Designs:
+1. Linear Basic Bar
+2. Linear Basic Dotted
+3. Linear Basic Customized
+4. Vertical
+5. NonLinear (alert style stages)
+
+![Syles available](https://i.imgur.com/fCnuStz.jpg)
+Format: ![Alt Text](url)
