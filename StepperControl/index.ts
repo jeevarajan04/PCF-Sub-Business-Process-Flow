@@ -10,6 +10,7 @@ import vertical from './vertical';
 
 class GetSteps {
 	flowType: any;
+	readOnlyControl:any;
 	steps: any[];
 	activeStep : number;
 	refreshData : (value:any) => void;
@@ -67,6 +68,8 @@ export class StepperControl implements ComponentFramework.StandardControl<IInput
 		// Vertical , NonLinear
 		this._props.flowType = context.parameters.flowTypeProperty && context.parameters.flowTypeProperty.raw ? context.parameters.flowTypeProperty.raw:"Linear Basic Bar";
 	
+		var _readonlySelection = context.parameters.ReadOnly.raw || "False";
+		this._props.readOnlyControl = (_readonlySelection == "False") ? "show" : "hide";
 		this._props.refreshData = this._refreshData ;
 	
 		let count = 0;
