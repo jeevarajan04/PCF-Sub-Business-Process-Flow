@@ -21,8 +21,5 @@ Modifying the options in optionset will change the stages automatically
 4. Vertical
 5. NonLinear (alert style stages)
 
-## Readonly feature:
-If you want to hide the back and next buttons, set the readonly property to "True"
-
 ![Syles available](https://i.imgur.com/fCnuStz.jpg)
 Format: ![Alt Text](url)

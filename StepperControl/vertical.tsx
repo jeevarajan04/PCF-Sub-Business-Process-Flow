@@ -31,7 +31,7 @@ export default function VerticalLinearStepper(props:any) {
   const intialValue = props.activeStep;
   const [activeStep, setActiveStep] = React.useState(intialValue);
   const steps = props.steps;
-  const readOnlyControl = props.isReadOnly;
+  const readOnlyControl = props.readOnlyControl;
 
   function handleNext() {
     setActiveStep((prevActiveStep: any) => prevActiveStep + 1);

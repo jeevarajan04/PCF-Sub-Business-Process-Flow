@@ -167,7 +167,7 @@ export default function CustomizedSteppers(props: any) {
   const [activeStep, setActiveStep] = React.useState(intialValue);
   const steps = props.steps;
   const display = props.flowType;
-  const readOnlyControl = props.isReadOnly;
+  const readOnlyControl = props.readOnlyControl;
   
 
   function handleNext() {
