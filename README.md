@@ -27,4 +27,3 @@ Set  SubProcessType to "Vertical"
 Read-Only to "True"
 
 ![Syles available](https://i.imgur.com/fCnuStz.jpg)
-Format: ![Alt Text](url)
