@@ -21,5 +21,10 @@ Modifying the options in optionset will change the stages automatically
 4. Vertical
 5. NonLinear (alert style stages)
 
+## Readonly feature:
+To hide the back and next buttons and display the optionset values as the progress of the application.
+Set  SubProcessType to "Vertical"
+Read-Only to "True"
+
 ![Syles available](https://i.imgur.com/fCnuStz.jpg)
 Format: ![Alt Text](url)
