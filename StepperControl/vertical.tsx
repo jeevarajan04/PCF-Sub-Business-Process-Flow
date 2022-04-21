@@ -31,6 +31,7 @@ export default function VerticalLinearStepper(props:any) {
   const intialValue = props.activeStep;
   const [activeStep, setActiveStep] = React.useState(intialValue);
   const steps = props.steps;
+  const readOnlyControl = props.isReadOnly;
 
   function handleNext() {
     setActiveStep((prevActiveStep: any) => prevActiveStep + 1);
@@ -54,6 +55,7 @@ export default function VerticalLinearStepper(props:any) {
         {steps.map((label: any, index: any) => (
           <Step key={label}>
             <StepLabel>{label}</StepLabel>
+            {readOnlyControl == "show" &&(
             <StepContent>
               <div className={classes.actionsContainer}>
                 <div>
@@ -75,6 +77,7 @@ export default function VerticalLinearStepper(props:any) {
                 </div>
               </div>
             </StepContent>
+            )}
           </Step>
         ))}
       </Stepper>

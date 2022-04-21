@@ -167,6 +167,7 @@ export default function CustomizedSteppers(props: any) {
   const [activeStep, setActiveStep] = React.useState(intialValue);
   const steps = props.steps;
   const display = props.flowType;
+  const readOnlyControl = props.isReadOnly;
   
 
   function handleNext() {
@@ -213,7 +214,7 @@ export default function CustomizedSteppers(props: any) {
         ))}
       </Stepper>
       </div>
-      <div className = "align-center">
+      <div className = {readOnlyControl == "show" ? "align-center show":"align-center hide"}>
         {activeStep === steps.length ? (
           <div>
             <Typography className={classes.instructions}>
